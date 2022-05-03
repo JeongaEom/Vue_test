@@ -135,7 +135,8 @@
   <div v-for="(a,i) in 원룸들" :key="i">
       <div>{{ 원룸들[i].id }}</div>
       <!-- 
-        속성 안에 데이터 넣을때 속성 앞에 : 콜론 넣어야 됨 
+        - v-bind: 디렉티브는 v-bind를 생략하고 : (콜론)으로 사용 할 수도 있음
+        - 속성 안에 데이터 넣을때 속성 앞에 : (콜론) 넣어야 됨 
         :src="원룸들[i].image"
         예시) <img alt="" :src="원룸들[i].image" class="room-img"> 
       -->
